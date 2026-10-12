@@ -1,4 +1,4 @@
-package br.com.rodroid.cuidadose.ui.theme
+package br.com.rodroid.cuidadose.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
