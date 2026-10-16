@@ -17,6 +17,10 @@ object DSColors {
     val progressTrack = Color(0xFFD4E0FF)
     val textPrimary = Color(0xFF040E30)
     val textSecondary = Color(0xFF43464E)
+
+    val selectedDayBg = Color(0xFF14224C)
+    val mintGreen = Color(0xFF00C48C)
+    val dotInactive = Color(0xFF233261)
 }
 
 val Purple80 = Color(0xFFD0BCFF)

@@ -11,5 +11,6 @@
         <item quantity="other">%d doses restantes</item>
     </plurals>
     <string name="goal_percentage">%d%%</string>
+    <string name="see_month">Ver mês</string>
 
 </resources>
