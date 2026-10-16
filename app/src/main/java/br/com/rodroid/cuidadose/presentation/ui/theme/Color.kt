@@ -8,6 +8,15 @@ object DSColors {
     val secondaryColor = Color(0xFFE5EEFF)
     val onPrimaryColor = Color(0xFFFFFFFF)
     val onSecondaryColor = Color(0xFF00152F)
+
+    val darkBlue = Color(0xFF0F2A4A)
+    val beige = Color(0xFFFFDDB8)
+
+    val green = Color(0xFF007448)
+    val cardBackground = Color(0xFFF0F2FF)
+    val progressTrack = Color(0xFFD4E0FF)
+    val textPrimary = Color(0xFF040E30)
+    val textSecondary = Color(0xFF43464E)
 }
 
 val Purple80 = Color(0xFFD0BCFF)

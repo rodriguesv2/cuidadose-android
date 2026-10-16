@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">CuidaDose</string>
+
+    <string name="goal_date">Hoje, %s</string>
+    <string name="goal_almost_done">Meta de adesão quase concluída!</string>
+    <string name="goal_done">Meta de adesão concluída!</string>
+    <string name="goal_undone">Meta de adesão não concluída!</string>
+    <string name="goal_taken">%d de %d doses tomadas</string>
+    <plurals name="goal_remaining">
+        <item quantity="one">1 dose restante</item>
+        <item quantity="other">%d doses restantes</item>
+    </plurals>
+    <string name="goal_percentage">%d%%</string>
+
 </resources>

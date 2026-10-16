@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -18,6 +20,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import br.com.rodroid.cuidadose.presentation.ui.theme.CuidaDoseTheme
+import br.com.rodroid.cuidadose.presentation.ui.theme.DSColors
 
 @Composable
 fun SelectableCountChip(
@@ -69,12 +72,22 @@ private fun CountDot(
     isSelected: Boolean
 ) {
     Box(
-
+        Modifier
+            .size(14.dp)
+            .background(
+                shape = CircleShape,
+                color = when (isSelected) {
+                    true -> DSColors.darkBlue
+                    false -> DSColors.beige
+                }
+            ),
+        contentAlignment = Alignment.Center,
     ) {
         Text(
             text = count,
             fontWeight = FontWeight.SemiBold,
-            fontSize = 12.sp,
+            fontSize = 10.sp,
+            lineHeight = 10.sp,
             color = when (isSelected) {
                 true -> MaterialTheme.colorScheme.onPrimary
                 false -> MaterialTheme.colorScheme.onSecondary
